@@ -12,6 +12,5 @@ func main() {
 	r := routes.Router()
 	fmt.Println("starting the server on port 9000...")
 
-	log.Fatal(http.ListenAndServe(":9000", r))
-	
+	log.Fatal(http.ListenAndServe(":9000", r))	
 }
